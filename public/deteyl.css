@@ -1,0 +1,198 @@
+html {
+    height: 100vh;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  :root {
+    --color-bg: #2C2C32;
+    --color-active: #0f7dc6;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button-link {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-link:hover {
+    background-color: #45a049;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .auth-buttons button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #555;
+  }
+  
+
+  /* Общий стиль */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Шапка сайта */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  header .button-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  header .button-link:hover {
+    background-color: #45a049;
+  }
+  
+  /* Секция информации */
+  .info {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info h2 {
+    text-align: center;
+    color: #222;
+  }
+  
+  .info ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .info ul li {
+    margin: 5px 0;
+  }
+  
+  /* Галерея */
+  .gallery {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .photos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photos img {
+    width: calc(50% - 20px);
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photos img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+  /* Подвал */
+  footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+  }
+  
